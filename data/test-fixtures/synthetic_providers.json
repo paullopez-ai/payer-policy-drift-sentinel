@@ -1,0 +1,170 @@
+[
+  {
+    "provider_id": "PRV-66ae6aa1-153",
+    "provider_type": "hospital",
+    "market": "northeast",
+    "contract_cohort": "cohort-3",
+    "volume_group": "low",
+    "scenario_id": "denial-spike-imaging"
+  },
+  {
+    "provider_id": "PRV-f403ae26-7dc",
+    "provider_type": "imaging_center",
+    "market": "southeast",
+    "contract_cohort": "cohort-1",
+    "volume_group": "high",
+    "scenario_id": "appeal-reversal-leakage"
+  },
+  {
+    "provider_id": "PRV-1500c4b9-6f3",
+    "provider_type": "hospital",
+    "market": "west",
+    "contract_cohort": "cohort-1",
+    "volume_group": "low",
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "provider_id": "PRV-2c10954f-48f",
+    "provider_type": "hospital",
+    "market": "southeast",
+    "contract_cohort": "cohort-2",
+    "volume_group": "high",
+    "scenario_id": "policy-version-regression"
+  },
+  {
+    "provider_id": "PRV-feacb084-728",
+    "provider_type": "hospital",
+    "market": "southeast",
+    "contract_cohort": "cohort-5",
+    "volume_group": "medium",
+    "scenario_id": "denial-spike-imaging"
+  },
+  {
+    "provider_id": "PRV-86ddae2d-0d7",
+    "provider_type": "imaging_center",
+    "market": "west",
+    "contract_cohort": "cohort-5",
+    "volume_group": "medium",
+    "scenario_id": "appeal-reversal-leakage"
+  },
+  {
+    "provider_id": "PRV-f57a2967-9b6",
+    "provider_type": "hospital",
+    "market": "southeast",
+    "contract_cohort": "cohort-4",
+    "volume_group": "medium",
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "provider_id": "PRV-cdf5e536-e39",
+    "provider_type": "physician_group",
+    "market": "southeast",
+    "contract_cohort": "cohort-2",
+    "volume_group": "medium",
+    "scenario_id": "policy-version-regression"
+  },
+  {
+    "provider_id": "PRV-6c64fa04-265",
+    "provider_type": "hospital",
+    "market": "northeast",
+    "contract_cohort": "cohort-4",
+    "volume_group": "low",
+    "scenario_id": "denial-spike-imaging"
+  },
+  {
+    "provider_id": "PRV-49f7f20a-2a6",
+    "provider_type": "physician_group",
+    "market": "midwest",
+    "contract_cohort": "cohort-5",
+    "volume_group": "medium",
+    "scenario_id": "appeal-reversal-leakage"
+  },
+  {
+    "provider_id": "PRV-9f8cca5c-8f3",
+    "provider_type": "hospital",
+    "market": "west",
+    "contract_cohort": "cohort-5",
+    "volume_group": "low",
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "provider_id": "PRV-0c24ef89-ed4",
+    "provider_type": "ambulatory_surgery",
+    "market": "northeast",
+    "contract_cohort": "cohort-5",
+    "volume_group": "medium",
+    "scenario_id": "policy-version-regression"
+  },
+  {
+    "provider_id": "PRV-69c48db4-43d",
+    "provider_type": "physician_group",
+    "market": "southeast",
+    "contract_cohort": "cohort-1",
+    "volume_group": "low",
+    "scenario_id": "denial-spike-imaging"
+  },
+  {
+    "provider_id": "PRV-2b0793f2-cdc",
+    "provider_type": "imaging_center",
+    "market": "midwest",
+    "contract_cohort": "cohort-1",
+    "volume_group": "low",
+    "scenario_id": "appeal-reversal-leakage"
+  },
+  {
+    "provider_id": "PRV-6a622a6d-88e",
+    "provider_type": "hospital",
+    "market": "west",
+    "contract_cohort": "cohort-3",
+    "volume_group": "medium",
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "provider_id": "PRV-26e563c7-246",
+    "provider_type": "physician_group",
+    "market": "southeast",
+    "contract_cohort": "cohort-3",
+    "volume_group": "medium",
+    "scenario_id": "policy-version-regression"
+  },
+  {
+    "provider_id": "PRV-3257842b-44e",
+    "provider_type": "imaging_center",
+    "market": "midwest",
+    "contract_cohort": "cohort-1",
+    "volume_group": "high",
+    "scenario_id": "denial-spike-imaging"
+  },
+  {
+    "provider_id": "PRV-9a71cb47-191",
+    "provider_type": "imaging_center",
+    "market": "southeast",
+    "contract_cohort": "cohort-2",
+    "volume_group": "medium",
+    "scenario_id": "appeal-reversal-leakage"
+  },
+  {
+    "provider_id": "PRV-e15fa70d-3c9",
+    "provider_type": "ambulatory_surgery",
+    "market": "midwest",
+    "contract_cohort": "cohort-5",
+    "volume_group": "low",
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "provider_id": "PRV-2c8fd778-b8d",
+    "provider_type": "physician_group",
+    "market": "northeast",
+    "contract_cohort": "cohort-2",
+    "volume_group": "low",
+    "scenario_id": "policy-version-regression"
+  },
+  {
+    "provider_id": "PRV-IMG-HIGHVOL",
+    "provider_type": "imaging_center",
+    "market": "northeast",
+    "contract_cohort": "cohort-1",
+    "volume_group": "high",
+    "scenario_id": "provider-outlier-friction"
+  }
+]

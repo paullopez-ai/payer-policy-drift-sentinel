@@ -1,0 +1,27 @@
+graph TD
+    UI[Next.js UI Companion<br/>payer-policy-drift-sentinel-ui<br/>localhost:3000]
+    API[Azure Container Apps<br/>FastAPI Orchestration API<br/>Port 8000]
+    GRAPH[LangGraph StateGraph<br/>Data Readiness, Drift Detection,<br/>Policy Retrieval, Financial Impact,<br/>Evidence Pack, Quality Gate, Human Review]
+    SNOW[Snowflake<br/>PAYER_DRIFT_SENTINEL DB<br/>RAW, MART, POLICY, AUDIT schemas]
+    DBX[Azure Databricks<br/>Unity Catalog, Jobs, Notebooks,<br/>Feature Engineering, AI Search]
+    AOAI[Azure OpenAI<br/>Evidence generation<br/>Model deployment by variable]
+    OBS[Azure Foundation<br/>Key Vault, Container Registry,<br/>Log Analytics, Application Insights]
+    TEST[Test Track<br/>Mock clients only<br/>No external cloud calls]
+
+    UI -->|REST and SSE| API
+    API -->|LangGraph workflow| GRAPH
+    GRAPH -->|Snowflake SQL API or Python connector| SNOW
+    GRAPH -->|Jobs API, SQL Warehouse, AI Search| DBX
+    GRAPH -->|Chat completions and embeddings| AOAI
+    API -->|managed identity and telemetry| OBS
+    TEST -.->|pytest with mocked adapters| GRAPH
+
+    classDef app fill:#ECF3FA,stroke:#1F74BF,color:#0F171F
+    classDef data fill:#F4F9FE,stroke:#339377,color:#0F171F
+    classDef ai fill:#FAF8F2,stroke:#D6A54D,color:#0F171F
+    classDef guard fill:#FFF1F1,stroke:#DE3B3D,color:#0F171F
+
+    class UI,API app
+    class SNOW,DBX data
+    class AOAI ai
+    class OBS,TEST guard

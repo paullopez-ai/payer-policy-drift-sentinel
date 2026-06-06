@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Terraform
+*.tfvars
+!*.tfvars.example
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+tfplan
+
+# Secrets and keys
+*.p8
+*.pem
+*.key
+*.pfx
+
+# Snowflake
+snowflake_key*
+
+# Databricks
+.databrickscfg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated
+evals/reports/*.json
+data/snowflake-load/*.csv
+data/snowflake-load/*.json
+!data/snowflake-load/.gitkeep

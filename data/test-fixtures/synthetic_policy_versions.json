@@ -1,0 +1,52 @@
+[
+  {
+    "policy_version_id": "PV-2024-ADV-001",
+    "policy_name": "Synthetic Advanced Imaging Policy v1",
+    "procedure_group": "advanced_imaging",
+    "effective_date": "2024-01-01",
+    "retired_date": "2024-06-30",
+    "policy_text": "Synthetic policy for advanced imaging. Prior authorization required for all advanced imaging services. Clinical criteria: documented medical necessity with supporting clinical notes. Broad approval criteria with standard documentation requirements.",
+    "source_type": "SYNTHETIC",
+    "content_hash": "hash-advanced_imaging-v1"
+  },
+  {
+    "policy_version_id": "PV-2024-ADV-002",
+    "policy_name": "Synthetic Advanced Imaging Policy v2",
+    "procedure_group": "advanced_imaging",
+    "effective_date": "2024-07-01",
+    "retired_date": null,
+    "policy_text": "Synthetic policy for advanced imaging (updated). Prior authorization required. Clinical criteria: documented medical necessity with peer-reviewed evidence, failed conservative treatment documentation, and site-of-care justification. Narrower approval criteria requiring additional clinical documentation.",
+    "source_type": "SYNTHETIC",
+    "content_hash": "hash-advanced_imaging-v2"
+  },
+  {
+    "policy_version_id": "PV-2024-OUT-001",
+    "policy_name": "Synthetic Outpatient Surgery Policy v1",
+    "procedure_group": "outpatient_surgery",
+    "effective_date": "2024-01-01",
+    "retired_date": "2024-06-30",
+    "policy_text": "Synthetic policy for outpatient surgery. Prior authorization required for all outpatient surgery services. Clinical criteria: documented medical necessity with supporting clinical notes. Broad approval criteria with standard documentation requirements.",
+    "source_type": "SYNTHETIC",
+    "content_hash": "hash-outpatient_surgery-v1"
+  },
+  {
+    "policy_version_id": "PV-2024-OUT-002",
+    "policy_name": "Synthetic Outpatient Surgery Policy v2",
+    "procedure_group": "outpatient_surgery",
+    "effective_date": "2024-07-01",
+    "retired_date": null,
+    "policy_text": "Synthetic policy for outpatient surgery (updated). Prior authorization required. Clinical criteria: documented medical necessity with peer-reviewed evidence, failed conservative treatment documentation, and site-of-care justification. Narrower approval criteria requiring additional clinical documentation.",
+    "source_type": "SYNTHETIC",
+    "content_hash": "hash-outpatient_surgery-v2"
+  },
+  {
+    "policy_version_id": "PV-2024-SOC-001",
+    "policy_name": "Synthetic Site of Care Policy",
+    "procedure_group": "outpatient_surgery",
+    "effective_date": "2024-01-01",
+    "retired_date": null,
+    "policy_text": "Synthetic site of care policy. Outpatient procedures should be performed in the lowest-cost appropriate setting. Hospital outpatient departments require site-of-care justification when ambulatory surgery center alternatives exist.",
+    "source_type": "SYNTHETIC",
+    "content_hash": "hash-soc-v1"
+  }
+]

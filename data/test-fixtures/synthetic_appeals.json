@@ -1,0 +1,342 @@
+[
+  {
+    "appeal_id": "APP-42c1540f-98f",
+    "denial_id": "DEN-4aef2e3c-a04",
+    "appeal_date": "2024-05-15",
+    "appeal_outcome": "PARTIAL",
+    "reversal_reason": "policy_mismatch",
+    "days_to_resolution": 49,
+    "admin_cost_estimate": 392.27,
+    "scenario_id": "appeal-reversal-leakage"
+  },
+  {
+    "appeal_id": "APP-7783efca-ede",
+    "denial_id": "DEN-93b1bb2f-69b",
+    "appeal_date": "2024-02-28",
+    "appeal_outcome": "UPHELD",
+    "reversal_reason": "missing_documentation",
+    "days_to_resolution": 64,
+    "admin_cost_estimate": 1548.81,
+    "scenario_id": "denial-spike-imaging"
+  },
+  {
+    "appeal_id": "APP-f597d910-62e",
+    "denial_id": "DEN-c54f0787-ed1",
+    "appeal_date": "2024-09-14",
+    "appeal_outcome": "UPHELD",
+    "reversal_reason": "reviewer_error",
+    "days_to_resolution": 28,
+    "admin_cost_estimate": 1242.76,
+    "scenario_id": "policy-version-regression"
+  },
+  {
+    "appeal_id": "APP-bb572960-f36",
+    "denial_id": "DEN-0ebd3aa5-1e2",
+    "appeal_date": "2025-01-23",
+    "appeal_outcome": "UPHELD",
+    "reversal_reason": "insufficient_evidence",
+    "days_to_resolution": 34,
+    "admin_cost_estimate": 1341.75,
+    "scenario_id": "appeal-reversal-leakage"
+  },
+  {
+    "appeal_id": "APP-dffa7cc8-880",
+    "denial_id": "DEN-12f05cac-943",
+    "appeal_date": "2024-07-23",
+    "appeal_outcome": "UPHELD",
+    "reversal_reason": "missing_documentation",
+    "days_to_resolution": 29,
+    "admin_cost_estimate": 1974.29,
+    "scenario_id": "policy-version-regression"
+  },
+  {
+    "appeal_id": "APP-3080737a-526",
+    "denial_id": "DEN-88359238-9b5",
+    "appeal_date": "2025-01-17",
+    "appeal_outcome": "OVERTURNED",
+    "reversal_reason": "missing_documentation",
+    "days_to_resolution": 81,
+    "admin_cost_estimate": 346.91,
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "appeal_id": "APP-e3546729-e78",
+    "denial_id": "DEN-4f9bd834-6a8",
+    "appeal_date": "2024-08-23",
+    "appeal_outcome": "PARTIAL",
+    "reversal_reason": "missing_documentation",
+    "days_to_resolution": 21,
+    "admin_cost_estimate": 1349.1,
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "appeal_id": "APP-04069d78-87f",
+    "denial_id": "DEN-5bef2b56-4f8",
+    "appeal_date": "2024-11-15",
+    "appeal_outcome": "PARTIAL",
+    "reversal_reason": "insufficient_evidence",
+    "days_to_resolution": 43,
+    "admin_cost_estimate": 1903.79,
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "appeal_id": "APP-e6bcd53f-64f",
+    "denial_id": "DEN-6e026b35-bb6",
+    "appeal_date": "2024-10-20",
+    "appeal_outcome": "UPHELD",
+    "reversal_reason": "insufficient_evidence",
+    "days_to_resolution": 74,
+    "admin_cost_estimate": 1037.15,
+    "scenario_id": "denial-spike-imaging"
+  },
+  {
+    "appeal_id": "APP-6bec9823-267",
+    "denial_id": "DEN-d0ff03af-14d",
+    "appeal_date": "2024-05-30",
+    "appeal_outcome": "PARTIAL",
+    "reversal_reason": "reviewer_error",
+    "days_to_resolution": 42,
+    "admin_cost_estimate": 940.14,
+    "scenario_id": "appeal-reversal-leakage"
+  },
+  {
+    "appeal_id": "APP-b0f3908d-3e9",
+    "denial_id": "DEN-aa1f6f59-61c",
+    "appeal_date": "2024-07-01",
+    "appeal_outcome": "PARTIAL",
+    "reversal_reason": "missing_documentation",
+    "days_to_resolution": 29,
+    "admin_cost_estimate": 1354.69,
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "appeal_id": "APP-46257482-ff6",
+    "denial_id": "DEN-5ec86c34-e35",
+    "appeal_date": "2024-07-26",
+    "appeal_outcome": "PARTIAL",
+    "reversal_reason": "insufficient_evidence",
+    "days_to_resolution": 65,
+    "admin_cost_estimate": 358.53,
+    "scenario_id": "denial-spike-imaging"
+  },
+  {
+    "appeal_id": "APP-21dc6449-652",
+    "denial_id": "DEN-73025653-a37",
+    "appeal_date": "2024-11-01",
+    "appeal_outcome": "OVERTURNED",
+    "reversal_reason": "insufficient_evidence",
+    "days_to_resolution": 84,
+    "admin_cost_estimate": 1250.52,
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "appeal_id": "APP-cfcb84dd-326",
+    "denial_id": "DEN-9bf43d4e-b63",
+    "appeal_date": "2025-01-16",
+    "appeal_outcome": "OVERTURNED",
+    "reversal_reason": "policy_mismatch",
+    "days_to_resolution": 73,
+    "admin_cost_estimate": 1047.03,
+    "scenario_id": "policy-version-regression"
+  },
+  {
+    "appeal_id": "APP-6d3c6133-328",
+    "denial_id": "DEN-8f823f44-1d2",
+    "appeal_date": "2024-08-12",
+    "appeal_outcome": "UPHELD",
+    "reversal_reason": "policy_mismatch",
+    "days_to_resolution": 83,
+    "admin_cost_estimate": 996.77,
+    "scenario_id": "policy-version-regression"
+  },
+  {
+    "appeal_id": "APP-3c0b393b-1eb",
+    "denial_id": "DEN-e6671477-d3e",
+    "appeal_date": "2024-03-12",
+    "appeal_outcome": "OVERTURNED",
+    "reversal_reason": "missing_documentation",
+    "days_to_resolution": 27,
+    "admin_cost_estimate": 671.95,
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "appeal_id": "APP-4df6a858-b74",
+    "denial_id": "DEN-cf446033-7f5",
+    "appeal_date": "2025-01-19",
+    "appeal_outcome": "UPHELD",
+    "reversal_reason": "insufficient_evidence",
+    "days_to_resolution": 43,
+    "admin_cost_estimate": 2263.76,
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "appeal_id": "APP-9c7b0c24-301",
+    "denial_id": "DEN-0562a90a-ce4",
+    "appeal_date": "2024-07-23",
+    "appeal_outcome": "PARTIAL",
+    "reversal_reason": "policy_mismatch",
+    "days_to_resolution": 64,
+    "admin_cost_estimate": 372.11,
+    "scenario_id": "policy-version-regression"
+  },
+  {
+    "appeal_id": "APP-5ebb08c7-c00",
+    "denial_id": "DEN-4f232df7-83c",
+    "appeal_date": "2024-10-08",
+    "appeal_outcome": "OVERTURNED",
+    "reversal_reason": "reviewer_error",
+    "days_to_resolution": 55,
+    "admin_cost_estimate": 931.53,
+    "scenario_id": "denial-spike-imaging"
+  },
+  {
+    "appeal_id": "APP-f657e694-681",
+    "denial_id": "DEN-543b0b44-f18",
+    "appeal_date": "2024-04-06",
+    "appeal_outcome": "UPHELD",
+    "reversal_reason": "policy_mismatch",
+    "days_to_resolution": 88,
+    "admin_cost_estimate": 450.64,
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "appeal_id": "APP-18399f16-aca",
+    "denial_id": "DEN-93d79c33-abb",
+    "appeal_date": "2024-06-24",
+    "appeal_outcome": "OVERTURNED",
+    "reversal_reason": "missing_documentation",
+    "days_to_resolution": 66,
+    "admin_cost_estimate": 477.69,
+    "scenario_id": "appeal-reversal-leakage"
+  },
+  {
+    "appeal_id": "APP-01827624-293",
+    "denial_id": "DEN-0b83738c-622",
+    "appeal_date": "2024-03-29",
+    "appeal_outcome": "PARTIAL",
+    "reversal_reason": "missing_documentation",
+    "days_to_resolution": 19,
+    "admin_cost_estimate": 694.55,
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "appeal_id": "APP-6ba6c908-fff",
+    "denial_id": "DEN-f3977f5a-e85",
+    "appeal_date": "2024-09-19",
+    "appeal_outcome": "UPHELD",
+    "reversal_reason": "missing_documentation",
+    "days_to_resolution": 64,
+    "admin_cost_estimate": 1380.96,
+    "scenario_id": "policy-version-regression"
+  },
+  {
+    "appeal_id": "APP-e46f50d9-f7c",
+    "denial_id": "DEN-52eb7494-079",
+    "appeal_date": "2024-03-31",
+    "appeal_outcome": "UPHELD",
+    "reversal_reason": "reviewer_error",
+    "days_to_resolution": 71,
+    "admin_cost_estimate": 1478.69,
+    "scenario_id": "denial-spike-imaging"
+  },
+  {
+    "appeal_id": "APP-fe6e9f82-48a",
+    "denial_id": "DEN-fbaa4902-b88",
+    "appeal_date": "2024-09-02",
+    "appeal_outcome": "UPHELD",
+    "reversal_reason": "insufficient_evidence",
+    "days_to_resolution": 15,
+    "admin_cost_estimate": 341.84,
+    "scenario_id": "denial-spike-imaging"
+  },
+  {
+    "appeal_id": "APP-3e8f8d61-c91",
+    "denial_id": "DEN-5038a88f-407",
+    "appeal_date": "2024-08-26",
+    "appeal_outcome": "OVERTURNED",
+    "reversal_reason": "missing_documentation",
+    "days_to_resolution": 24,
+    "admin_cost_estimate": 1539.34,
+    "scenario_id": "denial-spike-imaging"
+  },
+  {
+    "appeal_id": "APP-90168e4f-68c",
+    "denial_id": "DEN-47cdf469-562",
+    "appeal_date": "2024-12-20",
+    "appeal_outcome": "UPHELD",
+    "reversal_reason": "insufficient_evidence",
+    "days_to_resolution": 22,
+    "admin_cost_estimate": 654.83,
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "appeal_id": "APP-23327a74-a7c",
+    "denial_id": "DEN-fbce35f8-987",
+    "appeal_date": "2024-05-21",
+    "appeal_outcome": "OVERTURNED",
+    "reversal_reason": "insufficient_evidence",
+    "days_to_resolution": 19,
+    "admin_cost_estimate": 2367.25,
+    "scenario_id": "denial-spike-imaging"
+  },
+  {
+    "appeal_id": "APP-4ee365da-dc8",
+    "denial_id": "DEN-bae375a4-59d",
+    "appeal_date": "2024-08-21",
+    "appeal_outcome": "OVERTURNED",
+    "reversal_reason": "reviewer_error",
+    "days_to_resolution": 77,
+    "admin_cost_estimate": 267.81,
+    "scenario_id": "denial-spike-imaging"
+  },
+  {
+    "appeal_id": "APP-7ec3ba49-e11",
+    "denial_id": "DEN-147f1841-45d",
+    "appeal_date": "2024-05-09",
+    "appeal_outcome": "UPHELD",
+    "reversal_reason": "missing_documentation",
+    "days_to_resolution": 49,
+    "admin_cost_estimate": 1225.83,
+    "scenario_id": "policy-version-regression"
+  },
+  {
+    "appeal_id": "APP-fe5d386f-68f",
+    "denial_id": "DEN-361ac001-a9f",
+    "appeal_date": "2024-02-20",
+    "appeal_outcome": "PARTIAL",
+    "reversal_reason": "policy_mismatch",
+    "days_to_resolution": 51,
+    "admin_cost_estimate": 1347.45,
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "appeal_id": "APP-69d92cf6-e5c",
+    "denial_id": "DEN-e44972d3-d20",
+    "appeal_date": "2024-03-07",
+    "appeal_outcome": "UPHELD",
+    "reversal_reason": "reviewer_error",
+    "days_to_resolution": 39,
+    "admin_cost_estimate": 1678.1,
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "appeal_id": "APP-d04e8e0b-edd",
+    "denial_id": "DEN-c7027e38-b84",
+    "appeal_date": "2024-04-12",
+    "appeal_outcome": "PARTIAL",
+    "reversal_reason": "insufficient_evidence",
+    "days_to_resolution": 62,
+    "admin_cost_estimate": 1998.41,
+    "scenario_id": "provider-outlier-friction"
+  },
+  {
+    "appeal_id": "APP-fdcf277b-226",
+    "denial_id": "DEN-635bbbc6-3a9",
+    "appeal_date": "2024-11-23",
+    "appeal_outcome": "PARTIAL",
+    "reversal_reason": "policy_mismatch",
+    "days_to_resolution": 17,
+    "admin_cost_estimate": 2260.26,
+    "scenario_id": "provider-outlier-friction"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "finding_id": "FND-denial-spike-001",
+    "scenario_id": "denial-spike-imaging",
+    "finding_type": "DENIAL_SPIKE",
+    "detection_date": "2024-09-15",
+    "procedure_group": "advanced_imaging",
+    "provider_id": null,
+    "baseline_rate": 0.08,
+    "observed_rate": 0.23,
+    "delta": 0.15,
+    "severity": "HIGH",
+    "confidence": 0.87,
+    "policy_version_id": "PV-2024-IMG-002",
+    "status": "NEW"
+  },
+  {
+    "finding_id": "FND-appeal-rev-001",
+    "scenario_id": "appeal-reversal-leakage",
+    "finding_type": "APPEAL_REVERSAL_SPIKE",
+    "detection_date": "2024-09-15",
+    "procedure_group": "outpatient_surgery",
+    "provider_id": null,
+    "baseline_rate": 0.12,
+    "observed_rate": 0.31,
+    "delta": 0.19,
+    "severity": "HIGH",
+    "confidence": 0.78,
+    "policy_version_id": "PV-2024-SOC-001",
+    "status": "NEW"
+  },
+  {
+    "finding_id": "FND-provider-001",
+    "scenario_id": "provider-outlier-friction",
+    "finding_type": "PROVIDER_OUTLIER",
+    "detection_date": "2024-09-15",
+    "procedure_group": "advanced_imaging",
+    "provider_id": "PRV-IMG-HIGHVOL",
+    "baseline_rate": 0.1,
+    "observed_rate": 0.23,
+    "delta": 0.13,
+    "severity": "MEDIUM",
+    "confidence": 0.72,
+    "policy_version_id": "PV-2024-IMG-002",
+    "status": "NEW"
+  },
+  {
+    "finding_id": "FND-policy-reg-001",
+    "scenario_id": "policy-version-regression",
+    "finding_type": "POLICY_VERSION_DRIFT",
+    "detection_date": "2024-09-15",
+    "procedure_group": "advanced_imaging",
+    "provider_id": null,
+    "baseline_rate": 0.08,
+    "observed_rate": 0.23,
+    "delta": 0.15,
+    "severity": "HIGH",
+    "confidence": 0.81,
+    "policy_version_id": "PV-2024-IMG-002",
+    "status": "NEW"
+  }
+]

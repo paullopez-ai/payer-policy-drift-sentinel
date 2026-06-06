@@ -1,0 +1,56 @@
+[
+  {
+    "scenario_id": "denial-spike-imaging",
+    "description": "Advanced imaging denials rise from 8% baseline to 23% after policy version change",
+    "expected_finding_type": "DENIAL_SPIKE",
+    "expected_severity": "HIGH",
+    "expected_confidence_min": 0.7,
+    "expected_confidence_max": 1.0,
+    "expected_citations": [
+      "CIT-PV-2024-IMG-002-a1b2c3d4e5f6",
+      "CIT-PV-2024-IMG-001-f6e5d4c3b2a1"
+    ],
+    "expected_review_status": "REQUIRED",
+    "expected_trust_boundary": "SUPERVISED"
+  },
+  {
+    "scenario_id": "appeal-reversal-leakage",
+    "description": "Appeal reversals increase for site-of-care denials suggesting overly aggressive denial logic",
+    "expected_finding_type": "APPEAL_REVERSAL_SPIKE",
+    "expected_severity": "HIGH",
+    "expected_confidence_min": 0.6,
+    "expected_confidence_max": 1.0,
+    "expected_citations": [
+      "CIT-PV-2024-SOC-001-abc123def456"
+    ],
+    "expected_review_status": "REQUIRED",
+    "expected_trust_boundary": "SUPERVISED"
+  },
+  {
+    "scenario_id": "provider-outlier-friction",
+    "description": "One provider cohort has abnormal denial and appeal pattern compared to peers",
+    "expected_finding_type": "PROVIDER_OUTLIER",
+    "expected_severity": "MEDIUM",
+    "expected_confidence_min": 0.5,
+    "expected_confidence_max": 1.0,
+    "expected_citations": [
+      "CIT-PV-2024-IMG-002-a1b2c3d4e5f6"
+    ],
+    "expected_review_status": "REQUIRED",
+    "expected_trust_boundary": "RESTRICTED"
+  },
+  {
+    "scenario_id": "policy-version-regression",
+    "description": "New policy version correlates with increased denials and poorer appeal outcomes",
+    "expected_finding_type": "POLICY_VERSION_DRIFT",
+    "expected_severity": "HIGH",
+    "expected_confidence_min": 0.6,
+    "expected_confidence_max": 1.0,
+    "expected_citations": [
+      "CIT-PV-2024-IMG-002-a1b2c3d4e5f6",
+      "CIT-PV-2024-IMG-001-f6e5d4c3b2a1"
+    ],
+    "expected_review_status": "REQUIRED",
+    "expected_trust_boundary": "RESTRICTED"
+  }
+]

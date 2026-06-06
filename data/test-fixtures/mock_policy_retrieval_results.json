@@ -1,0 +1,26 @@
+[
+  {
+    "policy_version_id": "PV-2024-IMG-002",
+    "procedure_group": "advanced_imaging",
+    "passage": "Prior authorization required for all advanced imaging services including MRI, CT, and PET scans. Clinical criteria: documented medical necessity with peer-reviewed evidence, failed conservative treatment documentation, and site-of-care justification. Narrower approval criteria requiring additional clinical documentation compared to previous policy version.",
+    "relevance_score": 0.92
+  },
+  {
+    "policy_version_id": "PV-2024-IMG-001",
+    "procedure_group": "advanced_imaging",
+    "passage": "Prior authorization required for advanced imaging services. Clinical criteria: documented medical necessity with supporting clinical notes. Broad approval criteria with standard documentation requirements.",
+    "relevance_score": 0.85
+  },
+  {
+    "policy_version_id": "PV-2024-SOC-001",
+    "procedure_group": "outpatient_surgery",
+    "passage": "Outpatient procedures should be performed in the lowest-cost appropriate setting. Hospital outpatient departments require site-of-care justification when ambulatory surgery center alternatives exist.",
+    "relevance_score": 0.78
+  },
+  {
+    "policy_version_id": "PV-2024-OUT-002",
+    "procedure_group": "outpatient_surgery",
+    "passage": "Updated outpatient surgery authorization criteria require site-of-care review for all procedures with ambulatory alternatives. Documentation must include clinical justification for hospital-based setting.",
+    "relevance_score": 0.74
+  }
+]

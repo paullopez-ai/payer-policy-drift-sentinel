@@ -1,0 +1,15 @@
+project_name              = "payer-policy-drift-sentinel"
+location                  = "eastus"
+environment               = "demo"
+
+snowflake_account         = "your_account"
+snowflake_organization    = "your_org"
+snowflake_admin_user      = "your_admin_user"
+snowflake_private_key_path = "~/.snowflake/demo_key.p8"
+
+azure_openai_model_name   = "gpt-4o"
+azure_openai_deployment   = "drift-evidence-model"
+
+databricks_workspace_name = "dbx-payer-drift-demo"
+databricks_token          = ""
+container_image_tag       = "latest"
