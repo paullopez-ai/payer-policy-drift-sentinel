@@ -50,7 +50,7 @@ Payer operations teams often discover policy drift only after it becomes provide
 +--------------------------------------+  +---------------------------------------------+
 ```
 
-<!-- DIAGRAM: insert rendered architecture.mermaid image here -->
+![Payer Policy Drift Sentinel Architecture](payer-policy-drift-sentinel.png)
 
 Snowflake is the governed synthetic payer data plane. Azure Databricks performs feature engineering, drift scoring, and retrieval preparation. The FastAPI service on Azure Container Apps orchestrates the workflow through LangGraph, calls Azure OpenAI for a cited evidence packet, and writes audit records back to Snowflake. The UI displays findings, citations, confidence, cost, and human review status without directly accessing Snowflake or Databricks.
 
