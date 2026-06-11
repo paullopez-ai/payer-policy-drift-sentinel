@@ -1,5 +1,22 @@
 # Payer Policy Drift Sentinel
 
+## Professional Context and IP Notice
+
+This prototype is a reference design built to demonstrate the type of
+work I do as an AI architect in healthcare and enterprise contexts. It
+does not contain proprietary information, client data, trade secrets,
+internal systems knowledge, or confidential materials from any current
+or former employer or their clients. All data is synthetic, all
+architecture patterns are based on publicly available technologies and
+standards, and all code was written independently on personal equipment
+outside of employment obligations.
+
+The scenarios and domain context (prior authorization, denial
+management, payer operations) reflect publicly understood healthcare
+industry problems, not any specific client engagement or internal system.
+
+---
+
 A payer AI reference architecture that detects claim, prior authorization, denial, appeal, and policy drift using Snowflake, Azure Databricks, Azure OpenAI, and Azure-hosted orchestration.
 
 Payer operations teams often discover policy drift only after it becomes provider abrasion, appeal backlog, compliance concern, or avoidable administrative cost. This prototype shows how a payer can combine governed Snowflake data, Databricks analytics, and Azure OpenAI evidence generation into a supervised workflow. The system detects drift, retrieves policy context, estimates exposure, creates a cited evidence packet, and routes high-risk findings to human review.
