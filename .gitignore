@@ -47,3 +47,4 @@ evals/reports/*.json
 data/snowflake-load/*.csv
 data/snowflake-load/*.json
 !data/snowflake-load/.gitkeep
+docs/interview-demo-guide.md
